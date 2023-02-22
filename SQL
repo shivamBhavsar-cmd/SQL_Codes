@@ -1,0 +1,36 @@
+Syntax of create table in SQL with an example:
+CREATE TABLE  tablename(
+column1 datatype,
+column2 datatype,
+…
+columnN datatype,
+PRIMARY KEY(one or more columns));
+
+----------------------------------------
+Create the table, employee(
+e_id int not null,
+e_name varchar(20),
+e_salary int,
+e_age int,
+e_gender varchar(20),
+e_dept varchar (20),
+primary key(e_id)
+);
+-------------------------------------------
+
+Syntax of Drop Table in SQL with an example
+DROP TABLE TableName;
+DROP TABLE test;
+
+-------------------------------------------
+
+
+Syntax of Order By in SQL:
+SELECT column1, column2….
+FROM table_name
+ORDER BY column1 ASC/DESC, column2 ASC/DESC;
+
+Syntax of Order By in SQL:
+SELECT column1, column2….
+FROM table_name
+ORDER BY column1 ASC/DESC, column2 ASC/DESC;
